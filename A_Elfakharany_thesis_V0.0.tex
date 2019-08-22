@@ -1,0 +1,167 @@
+\documentclass[oneside]{utmthesis}
+%By default, print on two-side, can change to oneside printing 
+%According to the new manual, should not mixed single-side with two-side printing
+
+\usepackage{graphicx}
+\usepackage{url} 
+%\usepackage[pages=some]{background}
+%\usepackage{lipsum}
+\usepackage{pdflscape}
+\usepackage{longtable}
+%user defined packages
+
+
+%%% You MUST load the natbib package if you want to use author-date bibliography style. Also remember to change the bibliography style at the bottom of the .tex file.
+% Comment natbib for citation by number
+%\usepackage{natbib}
+%\let\cite\citep
+
+%This is to make sure vertical spacing non-stretchable
+\raggedbottom
+
+\begin{document}
+
+% Required information
+\title{Hello Hi Hello}
+%\titletwo{Second Line (Optional)}
+%\titlethree{Third Line (Optional)}
+%\titlefour{Fourth Line (Optional)}
+\author{Hello Hi Hello}
+\degree{Hello Hi Hello}
+\specialization{Physics}
+\intakeyear{2018}
+%\school{School of Electrical Engineering}
+\faculty{Hello Hi Hello}
+\titledate{October 2018}
+\award{4}
+% Options for Award 
+% 1. Bachelor Degree Project Report
+% 2. Master's Project Report (By course work)
+% 3. Master's Dissertation (By course work and research)
+% 4. Master's Thesis (By research)
+% 5. Doctor of Philosophy Thesis
+% 6. Other PhD Thesis
+% 7. Generic PhD Thesis
+% 8. Thesis Proposal
+\superone{Hello Hi Hello	}
+%\supertwo{M.Y. Other Supervisor}
+%\superthree{M.Y. Superlong named supervisor}
+% \superfour{Fourth SV}
+% \superfive{Fifth SV}
+
+% Mandatory pages
+\coverpage
+\superpage
+\certification
+\frontmatter
+\maketitle
+\declaration
+
+
+\begin{dedication}
+This thesis is dedicated to my father, who taught me that the best kind of knowledge to have is that which is learned for its own sake. It is also dedicated to my mother, who taught me that even the largest task can be accomplished if it is done one step at a time.\
+\end{dedication}
+
+\begin{acknowledgement}
+Acknowledgement
+\end{acknowledgement}
+
+
+\begin{abstract}
+A 1-page abstract is a \emph{movie (thesis) trailer}. Avoid summarizing
+your Introduction chapter. Focus on the problem statement, hypothesis/objective,
+research approach, quantitative validation summary, and implication
+of your findings. For Ph.D., emphasize on original contributions.
+\end{abstract}
+
+\begin{abstrak}
+The Malay abstract is written as the sentence structure of the English
+abstract. All specific terms must be checked with Dewan Bahasa and
+Pustaka (\url{http://prpm.dbp.gov.my/}). 
+\end{abstrak}
+
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+
+%List of abbreviation 
+\listofabbre
+\addabbre{DRL}{Deep Reinforcement Learning}
+\addabbre{PC}{Personal Computer}
+\addabbre{SVM}{Support Vector Machine}
+\addabbre{UTM}{Universiti Teknologi Malaysia}
+\addabbre{XML}{Extensible Markup Language}
+
+
+%List of symbols 
+\listofsymbols
+\addsymbol{$\gamma$}{Whatever}
+\addsymbol{$\sigma$}{Whatever}
+\addsymbol{$\varepsilon$}{Whatever}
+
+
+%Uncomment if have appendices
+\listofappendices
+
+
+\mainmatter
+
+
+\input{chapter1_intro.tex}
+
+
+\chapter{Literature Review}
+
+\input{chapter3_method.tex}
+
+\chapter{Results and Discussion}
+
+\chapter{Conclusion}
+\section{Research Outcomes}
+\section{Contributions to Knowledge}
+\section{Future Works}
+
+%select one
+%Use authordate with natbib, comment if using numbering
+%\bibliographystyle{utmthesis-authordate}
+%When using numbering, comment when using author-year
+%Numbering does not use \citep nor citet (natbib)
+\bibliographystyle{utmthesis-numbering}
+%\bibliography{reference}
+\bibliography{library}
+
+\appendix
+\chapter{Time-series Data}
+Some data
+
+%-----------List of Publication-----------%
+%This is not required for FYP project report
+\listofpublications
+
+\noindent \textbf{Journal with Impact Factor}
+\begin{enumerate}
+\item Paper 1
+\item Paper 2
+\end{enumerate}
+\textbf{Indexed Journal (SCOPUS)}
+\begin{enumerate}
+\item Paper 3
+\end{enumerate}
+\noindent \textbf{Non-Indexed Journal}
+\begin{enumerate}
+\item Paper 4
+\end{enumerate}
+\noindent \textbf{Indexed conference proceedings}
+\begin{enumerate}
+\item Paper 5
+\end{enumerate}
+\noindent \textbf{Non-Indexed conference proceedings}
+\begin{enumerate}
+\item Paper 6
+\end{enumerate}
+
+%This is required to make List of Appendices possible. Remove when have no appendix.
+\endmatter
+\end{document}

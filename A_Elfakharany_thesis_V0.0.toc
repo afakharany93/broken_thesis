@@ -1,0 +1,36 @@
+
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {DECLARATION}}{ii}{section*.7}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {DEDICATION}}{iii}{section*.9}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ACKNOWLEDGEMENT}}{iv}{section*.11}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ABSTRACT}}{v}{section*.13}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ABSTRAK}}{vi}{section*.15}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {TABLE OF CONTENTS}}{vii}{section*.17}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF TABLES}}{ix}{section*.19}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF FIGURES}}{x}{section*.21}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF ABBREVIATIONS}}{xi}{section*.23}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF SYMBOLS}}{xii}{section*.25}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF APPENDICES}}{xiii}{section*.27}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 1}\MakeUppercase {Introduction}}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Problem Statement}{1}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Research Objectives}{2}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Research Scope }{2}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Significance of Study}{2}{section.1.5}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 2}\MakeUppercase {Literature Review}}{4}{chapter.2}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 3}\MakeUppercase {Methodology}}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Introduction}{5}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Problem Formulation}{5}{section.3.2}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 4}\MakeUppercase {Results and Discussion}}{6}{chapter.4}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 5}\MakeUppercase {Conclusion}}{7}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Research Outcomes}{7}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Contributions to Knowledge}{7}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Future Works}{7}{section.5.3}% 
+\save@tocdepth \setcounter {tocdepth}{0}
+\contentsline {chapter}{LIST OF PUBLICATIONS}{9}{section*.29}% 
+\save@tocdepth \setcounter {tocdepth}{0}
+\save@tocdepth \setcounter {tocdepth}{2}
